@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,24 +11,29 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #B85E3C;
+            background-color: #B85E3C; /* Background color match karne ke liye */
             margin: 0;
         }
+
         .container {
             text-align: center;
         }
+
         img {
-            width: 100px;
+            width: 350px; /* Image size adjust kar sakte ho */
             border-radius: 10px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Agar original image load na ho toh placeholder image show hogi -->
-        <img src="./images/tshirt.jpg" alt="Luxury T-Shirt" onerror="this.src='https://via.placeholder.com/350';">
-        <h2 style="color: white;">Premium Beige T-Shirt</h2>
+        <img src="images/tshirt.jpg" alt="Luxury T-Shirt">
+        <h2>Premium Beige T-Shirt</h2>
     </div>
 </body>
 </html>
