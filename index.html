@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +9,14 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #8B5E3C; /* Background color match karne ke liye */
+            background-color: #B85E3C;
             margin: 0;
         }
         .container {
             text-align: center;
         }
         img {
-            width: 350px; /* Image size adjust kar sakte ho */
+            width: 350px;
             border-radius: 10px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
@@ -25,7 +24,8 @@
 </head>
 <body>
     <div class="container">
-        <img src="images/tshirt.jpg" alt="Luxury T-Shirt">
+        <!-- Ensure that the correct image path is used -->
+        <img src="./images/tshirt.jpg" alt="Luxury T-Shirt" onerror="this.onerror=null; this.src='placeholder.jpg';">
         <h2 style="color: white;">Premium Beige T-Shirt</h2>
     </div>
 </body>
